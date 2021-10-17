@@ -1,4 +1,4 @@
-# Gatsby Firebase Authentication
+# Gatsby Firebase Estimator
 
 ![Project Image](https://res.cloudinary.com/dnpje4e34/image/upload/v1633635629/Gatsby-firebase-startup_bsntl7.png)
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-While working on a new Gatsby project I decided to use Firebase for Authentication. So I thought I would share the process in this repository.
+Gatsby Firebase Estimator is a tool for window cleaners to make estimating jobs easier and more efficient.
 
 #### Technologies
 
@@ -19,7 +19,7 @@ While working on a new Gatsby project I decided to use Firebase for Authenticati
 
 ## How To Use
 
-1. Set up Firebase projet
+1. Set up Firebase project
 
    [Firebase console](https://console.firebase.google.com/u/4/)
 
