@@ -24,9 +24,14 @@ class Firebase {
       .limit(1)
       .onSnapshot(onSnapshot)
   }
-
+  async sendEmailVerification() {
+    await this.auth.currentUser.sendEmailVerification().then(() => {
+      console.log(this.auth.currentUser)
+    })
+  }
   async register({ email, password, username }) {
     await this.auth.createUserWithEmailAndPassword(email, password)
+    await this.sendEmailVerification()
     const createProfileCallable = this.functions.httpsCallable(
       "createPublicProfile"
     )
